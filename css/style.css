@@ -1,0 +1,135 @@
+.wow {
+  width: 100px;
+}
+
+body{
+  font-family: 'Bitter', serif;
+  border: 5px dotted #FFF443;
+  border-radius: 10px;
+  padding: 10px;
+   
+}
+h1{
+  color: #EC2D10;
+  text-shadow: 1px 1px #050505;
+  text-align: center;
+  
+}
+
+  h1:hover{
+      text-shadow: 2px 2px #050505;
+
+  }
+h2{
+    text-shadow: 1px 1px #EC2D10 ;
+  text-align: center;
+
+}
+
+  h2:hover{
+      text-shadow: 2px 2px #EC2D10;
+
+  }
+
+h3{
+   color: #EC2D10;
+   text-shadow: 1px 1px #050505
+
+}
+
+  h3:hover{
+      text-shadow: 2px 2px #050505;
+  }
+
+#tblspn,#cups{
+  background-color: #FFF443;
+}
+
+#tblspn:hover,#cups:hover{
+  background-color: #E7DD3E;
+}
+
+
+p{
+    font-weight: 550;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    shadow: 1px;
+}
+figcaption{
+   font-size: 12px;
+
+}
+
+ul{
+   list-style-type: circle;
+}
+
+li{
+
+}
+
+li:hover{
+   text-decoration: line-through;
+
+}
+
+hr{
+  border-top: 1.5px dashed #EC2D10;
+  
+}
+legend{
+  font-weight: bold;
+  border: 4px dotted #EC2D10;
+
+}
+
+legend:hover{
+   text-shadow: 1px 1px #050505;
+}
+
+
+footer{
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+#opening{
+  border: 5px dotted #EC2D10;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.directions {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.ingredients {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.ingredients-title {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.directions-title{
+  grid-column: 3;
+  grid-row: 1;
+}
